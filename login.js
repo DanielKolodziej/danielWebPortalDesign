@@ -6,6 +6,10 @@ alertButton.addEventListener('click', function(){
 	{
 		alert("You have successfully logged in, " + textInput.value + "!");
 	}
+	else if(textInput.value === "testuser" && passInput.value !== "testpass")
+	{
+		alert("Error: password does not match");
+	}
 	else{
 		alert("Error: credentials not found");
 	}
