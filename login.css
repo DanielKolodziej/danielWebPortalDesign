@@ -115,3 +115,8 @@ input{
 		margin-right: 10%;
 	}
 }
+@media screen and (max-width: 30em){
+	img{
+	height: 10em;
+    }
+}
