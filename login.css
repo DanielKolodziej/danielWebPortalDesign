@@ -107,3 +107,11 @@ input{
 	text-shadow: 2px 2px 8px #ffff00;
 	background: #4c4c4c;
 }
+@media screen and (min-width: 30em){
+	#column2{
+		width: 10%;
+	}
+	#background{
+		margin-right: 10%;
+	}
+}
