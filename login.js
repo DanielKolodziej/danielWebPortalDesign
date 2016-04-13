@@ -1,3 +1,10 @@
+function myFunction() {
+    var emailVal = document.getElementById("userN").value;
+	var passVal = document.getElementById("password").value;
+    // If the username is "testuser" and pass is "testpass"
+    
+}
+
 var alertButton = document.getElementById('log');
 var textInput = document.getElementById('userN');
 var passInput = document.getElementById('password');
