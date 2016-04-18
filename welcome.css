@@ -66,7 +66,14 @@ table {
 		color: white;
 		text-decoration: none;
 	}
-
+@media screen and (min-width: 400px) {
+	#main-navbar ul li{
+		float: left;
+	}
+	#main-navbar ul li a{
+		padding: 0.938em; /* 0.938em -> 15px */
+	}
+}
 #main-navbar ul li a:hover, #main-navbar ul li a:active{
 		background-color: red;
 	}
