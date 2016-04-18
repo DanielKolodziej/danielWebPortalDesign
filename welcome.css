@@ -66,6 +66,9 @@ table {
 		color: white;
 		text-decoration: none;
 	}
+#current{
+	background-color: blue;
+}
 @media screen and (min-width: 400px) {
 	#main-navbar ul li{
 		float: left;
