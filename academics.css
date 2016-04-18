@@ -1,30 +1,82 @@
-<!DOCTYPE HTML>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="academics.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-	<title>IIT Academics Page</title>
-</head
-
-<body>
-	<img src="https://my125.iit.edu/gradportal/css/images/iitlogo.gif" alt="banner-logo">
-	<nav id="main-navbar">
-		<div id="navbar-container" class="container">
-			<ul>
-				<li><a href="welcome.html">Welcome</a></li>
-				<li><a href="academics.html">Academics</a></li>
-				<li><a href="#">Finances</a></li>
-				<li><a href="loginPage.html">Log-out</a></li>
-			</ul>
-		<div>
-	</nav>
-	<div id="column1"></div>
-	<div id="column2"></div>
-	<p> pick class homie </p>
-<script src="login.js"></script>
-</body>
-
-</html>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------------------------------------*/
+#main-navbar{
+		background-color: #191919;
+	}
+#navbar-container{
+		text-align: center;
+	}
+#main-navbar ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		vertical-align: top;
+	}
+#main-navbar ul li a{
+		display: block;
+		padding: 0.313em; /* 0.313em -> 5px */
+		color: white;
+		text-decoration: none;
+	}
+@media screen and (min-width: 400px) {
+	#main-navbar ul li{
+		float: left;
+	}
+	#main-navbar ul li a{
+		padding: 0.938em; /* 0.938em -> 15px */
+	}
+}
+#main-navbar ul li a:hover, #main-navbar ul li a:active{
+		background-color: red;
+	}
+p{
+	padding: 2em;
+}
