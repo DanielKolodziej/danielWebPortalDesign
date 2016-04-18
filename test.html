@@ -6,24 +6,26 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="stylesTest.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-	<title>Kappa</title>
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+	<title>IIT Login Page</title>
 </head
 
 <body>
 	<img src="https://www.iit.edu/portal/loginpage/images/City_Campus_Nite_Shotv_portal_900x220.jpg" alt="back" id="back">
 	<div id="iitForm">
 		<img src="http://www.professoralgo.com/wp-content/uploads/2015/08/IIT-logo.png" alt="banner-logo" id="logo">
+			<h1>Sign in to MyIIT</h1>
 			<form action="#" method="get">	
-				<h1>Sign in to MyIIT</h1>
-				<input type="text" name="user" placeholder=" Username" id="userN"><br>
+				<input type="text" name="user" placeholder=" Username" id="userN">
 				<input type="password" name="password" placeholder=" Password"
-						id="password"><br>
-				<div id="submit">
-					<a href="welcome.html" id="log" onclick="myFunction()">Login</a>
-				</div>
+						id="password">
 			</form>
-
-			<a href="#" class="foot">New Account</a> | <a href="#" class="foot">Forgot Password</a> | <a href="#" class="foot">Contact</a> | <a href="#" class="foot">Support</a>
+			<a href="#" onclick="myFunction()" id="log">Login</a>
+		<div id="foots">	
+			<a href="#" class="foot">New Account</a>  <a href="#" class="foot">Forgot Password</a>  <a href="#" class="foot">Contact</a>  <a href="#" class="foot">Support</a>
+		</div>
 	</div>
 	<script src="jsTest.js"></script>
 </body>
