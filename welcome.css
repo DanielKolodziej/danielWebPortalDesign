@@ -78,5 +78,8 @@ table {
 		background-color: red;
 	}
 p{
-	padding: 2em;
+	padding: 1em;
+}
+img{
+	width: 100%;
 }
