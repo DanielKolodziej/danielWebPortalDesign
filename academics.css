@@ -83,3 +83,18 @@ table {
 p{
 	padding: 2em;
 }
+#column1{
+	height: 100vh;
+	width: 10%;
+	background: #b20000;
+	float: left;
+}
+#column2{
+	height: 100vh;
+	width: 10%;
+	background: #b20000;
+	float: right;
+}
+img{
+	width: 100%;
+}
