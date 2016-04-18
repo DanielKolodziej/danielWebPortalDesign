@@ -1,1 +1,30 @@
+<!DOCTYPE HTML>
 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="academics.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<title>IIT Academics Page</title>
+</head
+
+<body>
+	<img src="https://my125.iit.edu/gradportal/css/images/iitlogo.gif" alt="banner-logo">
+	<nav id="main-navbar">
+		<div id="navbar-container" class="container">
+			<ul>
+				<li><a href="welcome.html">Welcome</a></li>
+				<li><a href="academics.html">Academics</a></li>
+				<li><a href="#">Finances</a></li>
+				<li><a href="loginPage.html">Log-out</a></li>
+			</ul>
+		<div>
+	</nav>
+	<div id="column1"></div>
+	<div id="column2"></div>
+	<p> pick class homie </p>
+<script src="login.js"></script>
+</body>
+
+</html>
