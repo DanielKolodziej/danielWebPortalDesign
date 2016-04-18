@@ -48,11 +48,16 @@ table {
 }
 /*----------------------------------------------------------------*/
 #iitForm{
-	text-align: center;
 	position: relative;
 }
+form{
+	max-width: 25em;
+	margin: auto;
+	text-align: center;
+	display: block;	
+}
 #back{
-	opacity: 0.5;
+	opacity: 0.3;
 	height: 100%;
 	max-width: 100%;
 	position: absolute;
@@ -64,9 +69,11 @@ table {
 	padding-bottom: 1em;
 }
 h1{
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 250%;
 	padding: 0.75em;
+	text-align: center;
+	font-family: 'Bree Serif', Georgia, serif;
 }
 input{
 	height: 2em;
@@ -80,34 +87,57 @@ input{
 #password{
 	border-bottom-left-radius: 0.75em;
 	border-bottom-right-radius: 0.75em;
-	margin-bottom: 2em;
-}
-#submit{
-	background-color: #D3D3D3;
-	width: 18em;
-	height: 3em;
-	margin: auto;
-	margin-bottom: 2em;
-	text-align: center;
-}
-#log {
-	background: red;
+	margin-bottom: 1em;
 }
 ::-webkit-input-placeholder{
 	color: #323232;
 	font-weight: bold;
 }
-a{
+#log {
+	display: block;
+	color: #000000;
+	font-weight: 600;
 	text-decoration: none;
-	color: black;
+	background-color: #cccccc;
+	margin: auto;
 	text-align: center;
-	font-size: 125%;
+	max-width: 18em;
+	padding: 0.25em;
+	line-height: 2.15em;
+	border-radius: 0.5em;
+	box-shadow: 0.5em 0.5em 0.9em #888888;
+	font-family: 'Bree Serif', Georgia, serif;
+	margin-bottom: 2em;
 }
+#log:hover{
+	box-shadow: 0.5em 0.5em 0.4em #888888;
+	font-size: 105%; 
+}
+
 .foot{
-	padding: 1em;
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	background-color: #e5e5e5;
+	margin: auto;
+	text-align: center;
+	max-width: 8em;
+	line-height: 2em;
+	border-radius: 0.5em;
+	box-shadow: 0.5em 0.5em 0.1em #888888;
+	font-family: 'Bree Serif', Georgia, serif;
+	margin-bottom: 0.75em;
 }
-#warning {
-  font-weight: bold;
-  color: red;
-  margin-bottom: 3em;
+@media screen and (min-width: 40em){
+  .foot{
+	display: initial;
+	padding: 0.3em;
+	box-shadow: 0.25em 0.25em 0.1em #888888;
+	margin-right: 5%;
+	margin-left: 5%;
+  }
+  #foots{
+	margin-top: 10%; 
+	text-align: center;
+  }
 }
